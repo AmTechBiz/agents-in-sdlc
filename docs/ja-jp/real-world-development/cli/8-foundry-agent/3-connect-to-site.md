@@ -67,7 +67,7 @@ Tailspin Toys は、すべて事前レンダリングされています。ブラ
     ```
 
 2. ローカルの Function は実行したままにして、別のターミナルで Copilot が提示したコマンドを使い、Astro サイトを起動します。
-3. Copilot CLI に戻ります。[演習 4][playwright-lesson]で追加した Playwright MCP サーバーは、すでに利用できます。Copilot にウィジェットのテストを依頼します。
+3. Copilot CLI に戻ります。[レッスン 6][playwright-lesson]で確認または追加した Playwright MCP サーバーは、すでに利用できます。Copilot にウィジェットのテストを依頼します。
 
     ```text
     Use the Playwright MCP server to test the Backer Concierge widget end to end in the running Tailspin Toys site. Verify its core chat flow, conversation continuity, accessibility, error handling, grounding boundaries, and secure use of the local proxy. Report the results and include evidence for any failures.
@@ -91,6 +91,6 @@ CLI ワークショップを締めくくるために、[振り返りと次のス
 
 [overview]: ../
 [previous-lesson]: ../2-build-and-deploy/
-[review]: ../../9-review/
-[playwright-lesson]: ../../4-mcp/
+[review]: ../../10-review/
+[playwright-lesson]: ../../6-mcp-playwright/
 [cleanup]: ../#リソースをクリーンアップする
